@@ -1,7 +1,7 @@
-export default function Home() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+import { NextPage } from "next";
+
+const Home: NextPage = () => {
+  return <></>;
+};
+
+export default Home;
